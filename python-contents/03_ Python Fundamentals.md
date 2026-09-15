@@ -344,10 +344,10 @@ Output:
 Python searches for a name using:
 
 ```text
-L â†’ Local
-E â†’ Enclosing
-G â†’ Global
-B â†’ Built-in
+L - Local
+E - Enclosing
+G - Global
+B - Built-in
 ```
 
 ### Local
@@ -489,8 +489,8 @@ age = 20
 Python maintains associations similar to:
 
 ```text
-name â†’ "Alice"
-age  â†’ 20
+name - "Alice"
+age  - 20
 ```
 
 The names are not the objects themselves.
@@ -503,10 +503,10 @@ Make this distinction clear:
 
 ```text
 Scope
-  â†’ Where a name can be accessed
+  - Where a name can be accessed
 
 Namespace
-  â†’ Where names are stored/mapped to objects
+  - Where names are stored/mapped to objects
 ```
 
 They are closely related but not identical concepts.
@@ -954,8 +954,8 @@ Conceptually:
 ```text
 student1
    |
-   +-- name â†’ "Alice"
-   +-- age  â†’ 20
+   +-- name - "Alice"
+   +-- age  - 20
 ```
 
 ---
@@ -1338,8 +1338,8 @@ class Student:
 
 Explain simply:
 
-- `__str__` â†’ human-friendly representation.
-- `__repr__` â†’ developer/debugging-oriented representation.
+- `__str__` - human-friendly representation.
+- `__repr__` - developer/debugging-oriented representation.
 
 ---
 
